@@ -115,6 +115,7 @@ SHARED_APPS = [
     "django_tenants",         
     "tenant_project.tenants",  #
      "tenant_project.users", 
+     "tenant_project.provideradmin",
     *DJANGO_APPS,
     "rest_framework",
     "rest_framework.authtoken",
@@ -131,12 +132,18 @@ TENANT_APPS = [
     "django.contrib.sessions",
     "django.contrib.admin",
     "rest_framework",
+ 
 
     "tenant_project.provider",
     "tenant_project.configuration" ,
     "tenant_project.consent",
     "tenant_project.vital",
     "tenant_project.flag",
+    "tenant_project.icd",
+    "tenant_project.condition",
+    "tenant_project.template",
+
+
     
     
 ]
